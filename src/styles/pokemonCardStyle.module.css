@@ -1,0 +1,28 @@
+.pokemon__element {
+    width: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: black;
+    
+}
+
+.pokemon__element:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    background: linear-gradient(90deg in oklab, rgb(255, 255, 255), rgb(158, 158, 158));
+    box-shadow: 10px 5px 5px black;
+    color: #000;
+}
+
+.pokemon__name {
+    font-weight: bold;
+}
+
+.pokemon__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 136px;
+    height: 136px;
+}
